@@ -1,13 +1,26 @@
 import './App.css';
+import WdsUseSt from './components/WdsUseState';
+import Boxes from './components/Boxes';
+import StateChange from './components/StateChange';
+import Header from './components/Header';
+import StateChangeAdv from './components/StateChangeAdv';
 
 function App() {
-  const firstName = 'Pratyush';
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello {firstName}</h1>
-      </header>
+
+      <Header title="Hello here" />
+      <Header />
+      <hr />
+      <StateChange />
+      <hr />
+      <StateChangeAdv />
+      <hr />
+      <WdsUseSt />
+      <hr />
+      <Boxes />
+
     </div>
   );
 }

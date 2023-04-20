@@ -1,0 +1,10 @@
+.box{
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.box img{
+    max-width: 4rem;
+}

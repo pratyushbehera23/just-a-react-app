@@ -1,0 +1,9 @@
+
+.boxes{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
